@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+#container{
+    width: 500px;
+    height: 600px;
+    background-color: wheat;
+    padding-top: 20px;
+}
+
+.content div{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    position: relative;
+}
+.content div input{
+    font-size: 20px;
+}
+/*============================ student_info_html================= */
+.table_content{
+    border: 2px solid black;
+}
+.table_content th{
+    border: 2px solid black;
+    padding: 8px ;
+}
+.table_content td{
+    border: 2px solid black;
+    padding: 8px ;
+}
